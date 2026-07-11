@@ -1,0 +1,6 @@
+<device>
+<name>cisco</name>
+<id> 123 </id>
+<type> router <type>
+<nature> cisco ios </nature>
+</device>

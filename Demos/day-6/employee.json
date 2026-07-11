@@ -1,0 +1,9 @@
+
+{
+    "device":{
+        "name": "cisco XE",
+        "id": 123,
+        "type": "router",
+        "nature": "cisco ios"
+    }
+}
