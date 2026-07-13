@@ -29,6 +29,7 @@ except requests.exceptions.HTTPError as err:
 # 
 from requests.adapters import HTTPAdapter 
 from urllib3.util import Retry
+# from requests.packages.urllib3.util.retry import Retry (not available in latest Python version)
 
 #1. define the configuration for retrying failed requests 
 

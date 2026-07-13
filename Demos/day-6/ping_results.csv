@@ -1,0 +1,6 @@
+ip,status
+8.8.8.8,UP
+google.com,UP
+192.168.1.1,DOWN
+amazon.com,DOWN
+microsoft.com,DOWN

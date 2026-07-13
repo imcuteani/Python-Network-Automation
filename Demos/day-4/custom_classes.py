@@ -16,3 +16,11 @@ print("print() output:", mydate)
 
 print("repr() output:", repr(mydate))
 print("REPL output:", mydate)  # in REPL, this shows repr()
+
+# Real time scenarios 
+
+# use the __str__() when:
+# display data to end users in UI or reports the str() methods by wrapping the object output from str() constructor to str() method
+# create user-friendly error message
+# logging information for non-technical stakeholders 
+# building CLI applications with user output 

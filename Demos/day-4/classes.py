@@ -52,3 +52,21 @@ print(router1)
 print(router2)
 
 
+class Router:
+    def __init__(self, device_ip, manufacturer):
+        self.device_ip = device_ip # instance attribute
+        self.manufacturer = manufacturer # instance attribute
+# list of tuples containing the Router's attributes
+
+router_attributes = [("10.10.1.1", "cisco"), ("10.10.1.2", "arista"), ("10.10.1.3", "Juniper")]    
+
+# create the router object using the for loop
+routes = [] 
+for device_ip, manufacturer in router_attributes:
+    router = Router(device_ip, manufacturer)
+    routes.append(router)
+
+# print the details for each router 
+
+for router in routes:
+    print(f"Name: {router.name}, manufactuer: {router.manufacturer}")

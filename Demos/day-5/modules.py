@@ -31,3 +31,7 @@ print(mul_result)
 div_result = ipcalculator.div(30, 3)
 print(div_result)
 
+# 3rd-party python modules 
+# For HTTP web development and HTTP1.1 and 2.0 requests with Python. 
+
+# send requests with parameters, headers, cookies and authentication. It supports data into various formats like JSON, XML and form data. 
