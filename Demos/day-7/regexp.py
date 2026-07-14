@@ -3,6 +3,33 @@
 # re.findall() -> returns all non-overlapping matches of a pattern in the string as a list. It scans the string 
 # from left to right 
 
+
+# common Regex Characters 
+
+# . (a.b) matches b ->  matches any single character except a newline 
+# ^ (^Hello) -> matches the begining of the string 
+# $ (World$) -> matches the end of the string 
+# * (hi*) -> matches the zero or more repititions 
+# + (hi+) -> matches one or more repititions 
+# ? (hi?) -> matches zero or one repititions ("h" or "hi")
+# {m, n} -> matches from m to n repititions (a{2, 4} = aa, aaa, aaaa)
+# [] -> matches any single character inside the brackets [aeiou] matches any vowel 
+# | -> Acts as OR operator cat|dog matches either of them 
+# () Groups sub patterns together -> (abc)+ matches abcabc
+
+# Special sequences within Python Regular expressions 
+
+# Special sequences are those whicn provide matching common character sets. 
+
+# "\d": matches any decimal digit (equivalent to [0-9])
+# "\D" : Matches any character that is not a digit 
+# "\w" : Matches the alphaneumeric character or underscore  
+#  "\W" : Matches any non-alphaneumeric character 
+# "\s" : Matches any whitespace character (spaces, tabs or newlines)
+# "\S": Matches any non-whitespace character 
+# "\b": Matches a word with boundary position
+
+
 import re
 string = """Hello, this is network automation number, router IP is 10.10.1.2 and
             switch value is i1.4.32.5"""
