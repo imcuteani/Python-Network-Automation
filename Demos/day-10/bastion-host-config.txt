@@ -1,0 +1,4 @@
+Match Group bastion-users
+   AllowTcpForwarding yes 
+   DefaultAuthStrategies publickey 
+   ForceCommand echo "This account is for Bastion host and restricted to gateway transit only" 
