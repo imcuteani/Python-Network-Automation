@@ -1,0 +1,4 @@
+devicename: ciscoXE
+deviceos: ios
+devicetype: router
+ip: 192.168.224.1

@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <title>{{ user_name }}'s Profile</title>
+    </head>
+    <body>
+        <h1> Welcome, {{ user_name }}!</h1>
+
+        <!-- Conditional statements in Jinja markdown language-->
+         {% if is_premium %} 
+         <p> <strong> Status</strong> Premium Device (This is the Network Premium Device!)</p>
+         {% else %}
+         <p><strong>Status: </strong>Standard Device</p>
+         {% endif %}
+
+         <!-- For loop to iterate over a list-->
+          <h3> Your Recent Archievements</h3>
+          <ul>
+            {% for achivement in achivements %}
+            <li>{{ achivement }}</li>
+            {% else %}
+            <li>No achivements recorded yet</li>
+            {% endfor %}
+          </ul>
+    </body>
+</html>
