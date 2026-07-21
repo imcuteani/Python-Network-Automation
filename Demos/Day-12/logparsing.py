@@ -43,3 +43,26 @@ if match:
     print("HTTP status", http_status)
 else:
    print("Log entry does not match with the expected format")
+
+
+# Python handles the end to end log parsing in Production Automation environment using built-in modules like 
+# logging and re for generation and extraction for logs. It also uses the 3rd-party libraries like 
+# pandas and loguru for high throughput based scaling, using these two libraries, it can be performed - 
+
+# 1. collection/structuring of logs at the emission time 
+# 2. Parsing / extracting data from existing data streams. 
+
+# Basic logging string splitting (Fastest format)
+
+# sample: TimeStamp | Level | Message 
+
+line = "2026-07-21 08:50:00 | WARNING | Network Utilization at 80%"
+
+parts = line.split(" | ")
+if len(parts) >= 3:
+    log_data = {
+        "time": parts[0],
+        "level": parts[1],
+        "message": parts[2].strip()
+    }
+    print(log_data)

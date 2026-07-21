@@ -8,11 +8,11 @@
 # flexible layouts -> components can be arranged horizontally or vertically or even as interactive side presentation. 
 
 import report_creator as rc
-import plotly_express as px 
+import plotly.express as px
 
-with rc.ReportCreator(title="My Report", description="A sample Report") as report: 
+with rc.ReportCreator(title="My Network Report", description="A sample Report") as report: 
     view = rc.Block(
-        rc.Heading("Hello World", level=1),
+        rc.Heading("Sample Network Information", level=1),
         rc.Markdown("This is a simple report using **Report Creator**"),
         rc.Group(
             rc.Metric(heading="Records", value="1,024"),

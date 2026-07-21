@@ -1,0 +1,2 @@
+192.0.2.1 -- [21/Jul/2026:08:00:10 +0000] "GET /index.html HTTP/1.1" 200 4310 "https://google.com" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+192.0.2.45 -- [21/Jul/2026:10:00:00 + 0000] "POST /login HTTP/1.1" 401 240 "https://mysite.com" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X)" 
