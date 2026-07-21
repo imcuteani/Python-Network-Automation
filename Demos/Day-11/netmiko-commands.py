@@ -6,12 +6,7 @@ cisco_router_telnet = {
     "port": "5001",
     "username": "admin",
     "password": "cisco123",
-cisco_router_telnet = {
-    "device_type": "cisco_ios_telnet",
-    "host": "192.168.80.128",
-    "port": "5002",
-    "username": "admin",
-    "password": "cisco123",
+
 }
 
 net_connect = ConnectHandler(**cisco_router_telnet)
