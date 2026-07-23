@@ -1,0 +1,469 @@
+Connected to Dynamips VM "R1" (ID 1, type c7200) - Console port
+Press ENTER to get the prompt.
+                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.24.1    YES manual down                  down    
+FastEthernet2/0            192.168.23.1    YES manual up                    up      
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1            unassigned      YES NVRAM  administratively down down    
+R1#
+R1#exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+R1 con0 is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+
+
+
+
+R1#terminal width 511
+R1#terminal length 0
+R1#
+R1#
+R1#
+R1#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.24.1    YES manual down                  down    
+FastEthernet2/0            192.168.23.1    YES manual up                    up      
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1            unassigned      YES NVRAM  administratively down down    
+R1#
+R1#
+R1#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.24.1    YES manual down                  down    
+FastEthernet2/0            192.168.23.1    YES manual up                    up      
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1            unassigned      YES NVRAM  administratively down down    
+R1#
+R1#exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+R1 con0 is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+
+
+
+R1#terminal width 511
+R1#terminal length 0
+R1#
+R1#
+R1#
+R1#
+R1#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.24.1    YES manual down                  down    
+FastEthernet2/0            192.168.23.1    YES manual up                    up      
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1            unassigned      YES NVRAM  administratively down down    
+R1#
+R1#
+R1#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.24.1    YES manual down                  down    
+FastEthernet2/0            192.168.23.1    YES manual up                    up      
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1            unassigned      YES NVRAM  administratively down down    
+R1#
+R1#exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+R1 con0 is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+R1#terminal width 511
+R1#terminal length 0
+R1#
+R1#
+R1#
+R1#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.24.1    YES manual down                  down    
+FastEthernet2/0            192.168.23.1    YES manual up                    up      
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1            unassigned      YES NVRAM  administratively down down    
+R1#
+R1#exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+R1 con0 is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+
+
+
+
+
+R1#terminal width 511
+R1#terminal length 0
+R1#
+R1#
+R1#
+R1#show run | s interfaces
+R1#
+R1#exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+R1 con0 is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+R1#terminal width 511
+R1#terminal length 0
+R1#
+R1#
+R1#
+R1#
+R1#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.24.1    YES manual down                  down    
+FastEthernet2/0            192.168.23.1    YES manual up                    up      
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1            unassigned      YES NVRAM  administratively down down    
+R1#
+R1#exit
